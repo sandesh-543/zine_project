@@ -1,0 +1,11 @@
+// $result= $pdo->query("Select * from clogin");
+    // while ($row = $result->fetch()) {
+    //     $user[] = $row['User'];
+    //     $pwd[]=$row['Pass'];
+    //     }
+    //     for (i=0;i<=count($user);i++){
+    //         if $username==$user[i]{
+    //             include 'mainpageco.html.php'; 
+    //         }
+    //     }
+    // }

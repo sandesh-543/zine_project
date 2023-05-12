@@ -1,0 +1,36 @@
+:root{
+    --white: white;
+    --red: red;
+    --blue:blue;
+}
+@keyframes change{
+    0%{
+        background-color: var(--red);
+    }
+    100%{
+        background-color: var(--blue);
+    }
+}
+.w3-tag{
+    cursor:pointer;
+}
+.addbtn{
+    color:var(--white);
+    margin-left:85vw;
+    background-color: var(--red);
+    border: 1px var(--red);
+    width:5vw;
+    font-size: 25px;
+}
+.addbtn:hover{
+    animation: change 1500ms ease-in-out delay 1 forward;
+    background-color: blue;
+    cursor:pointer;
+}
+.bell{
+    padding-left: 60vw;
+    border: 1px solid;
+}
+ul{
+    list-style: none;
+}
